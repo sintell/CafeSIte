@@ -1,0 +1,612 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Redire",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"pos",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"w",
+				"with"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"met",
+				"method	Attr"
+			],
+			[
+				"ac",
+				"ActionRequest	struct ʈ"
+			],
+			[
+				"CO",
+				"CombatRequest	struct ʈ"
+			],
+			[
+				"Com",
+				"CombatRequest	struct ʈ"
+			],
+			[
+				"Cre",
+				"Creature	struct ʈ"
+			],
+			[
+				"Crel",
+				"func (*CreatureLoader)	func (...) {...} ʂ"
+			],
+			[
+				"Crea",
+				"Creature	struct ʈ"
+			],
+			[
+				"Cl",
+				"func (*CreatureLoader)	func (...) {...} ʂ"
+			],
+			[
+				"Load",
+				"func (*CreatureLoader)	func (...) {...} ʂ"
+			],
+			[
+				"CLo",
+				"func (*CreatureLoader)	func (...) {...} ʂ"
+			],
+			[
+				"T",
+				"TypeOf	reflect.Type ƒ"
+			],
+			[
+				"Effe",
+				"func (*Effect)	func (...) {...} ʂ"
+			],
+			[
+				"UDP",
+				"UDPConn	struct ʈ"
+			],
+			[
+				"U",
+				"UTC	time.Time ƒ"
+			],
+			[
+				"UN",
+				"Unix	int64 ƒ"
+			],
+			[
+				"res",
+				"ResolveUDPAddr	*net.UDPAddr, error ƒ"
+			],
+			[
+				"Wr",
+				"WriteMsgUDP	n int, oobn int, err error ƒ"
+			],
+			[
+				"RedFro",
+				"ReadFromUDP	n int, addr *net.UDPAddr, err error ƒ"
+			],
+			[
+				"Res",
+				"ResolveUDPAddr	*net.UDPAddr, error ƒ"
+			],
+			[
+				"imp",
+				"import	import (...) ʂ"
+			],
+			[
+				"effe",
+				"effectStorage	struct ʈ"
+			],
+			[
+				"funcLo",
+				"func (*LocationContainer)	func (...) {...} ʂ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Типографика\n\nКегль:\n  от выносного верхнего до выносного нижнего элемента + отступы\n\nКёрнинг\nТреккинг\nКонденс\n\n\nКлассификация\n\nАник(antique)\nГротеск(grotesque)\nАнкцентная()\n\n\nЖивая типографика\n\nПсихбольница в руках пациентов",
+			"settings":
+			{
+				"buffer_size": 224,
+				"line_ending": "Unix",
+				"name": "Типографика"
+			}
+		},
+		{
+			"file": "app/views/dishes/dish.blade.php",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 79.0,
+		"selected_items":
+		[
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"togg",
+				"View: Toggle Minimap"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sintell/www/laravel-master/app/views/menus/menu.blade.php",
+		"/home/sintell/www/laravel-master/public/css/style.css",
+		"/home/sintell/www/laravel-master/app/views/dishes/new-dish.blade.php",
+		"/home/sintell/www/laravel-master/app/views/dishes/index.blade.php",
+		"/home/sintell/www/laravel-master/app/views/dishes/dish.blade.php",
+		"/home/sintell/www/laravel-master/app/views/menus/index.blade.php",
+		"/home/sintell/www/laravel-master/app/views/menus/new-menu.blade.php",
+		"/home/sintell/www/laravel-master/app/views/menu.blade.php",
+		"/home/sintell/www/laravel-master/app/models/Dish.php",
+		"/home/sintell/www/laravel-master/app/models/Menu.php",
+		"/home/sintell/www/laravel-master/app/controllers/DishController.php",
+		"/home/sintell/www/laravel-master/app/controllers/MenuController.php",
+		"/home/sintell/www/laravel-master/app/routes.php",
+		"/home/sintell/www/laravel-master/app/views/layout.blade.php",
+		"/home/sintell/www/laravel-master/app/views/admin/index.blade.php",
+		"/home/sintell/www/laravel-master/public/js/restfulizer.js",
+		"/home/sintell/www/laravel-master/app/views/admin/new-dish.blade.php",
+		"/home/sintell/www/laravel-master/app/views/admin/dishes.blade.php",
+		"/home/sintell/www/laravel-master/app/views/admin/dish.blade.php",
+		"/home/sintell/www/laravel-master/app/views/login.blade.php",
+		"/home/sintell/www/laravel-master/app/models/DishType.php",
+		"/home/sintell/www/laravel-master/app/database/migrations/2013_11_02_231512_create_dishes_table.php",
+		"/home/sintell/www/laravel-master/app/database/migrations/2013_11_08_082926_CreateDishesTypesTable.php",
+		"/home/sintell/www/laravel-master/vendor/laravel/framework/src/Illuminate/Database/Eloquent/ModelNotFoundException.php",
+		"/home/sintell/www/laravel-master/app/config/mail.php",
+		"/home/sintell/www/laravel-master/app/views/admin.blade.php",
+		"/home/sintell/golang/AoR/AoR",
+		"/home/sintell/golang/AoR/src/creature/creature_test.go",
+		"/home/sintell/golang/AoR/src/effect/effect_test.go",
+		"/home/sintell/golang/AoR/src/loop/loop.go",
+		"/home/sintell/golang/AoR/src/effect/effect.go",
+		"/home/sintell/golang/AoR/square/main.go",
+		"/home/sintell/golang/AoR/src/communication/communication.go",
+		"/home/sintell/golang/AoR/src/mgo_test/main.go",
+		"/home/sintell/golang/AoR/src/loader/loader.go",
+		"/home/sintell/golang/AoR/src/loader/loader_test.go",
+		"/home/sintell/golang/AoR/src/creature/creature.go",
+		"/home/sintell/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+		"/home/sintell/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/sintell/test/css/2/style.css",
+		"/home/sintell/test/css/2/db",
+		"/home/sintell/golang/AoR/src/location/location.go",
+		"/home/sintell/golang/AoR/src/location/location_test.go",
+		"/home/sintell/golang/AoR/src/server/server.go",
+		"/home/sintell/golang/AoR/src/communication/communication_test.go",
+		"/home/sintell/golang/AoR/src/loop/loop_test.go",
+		"/home/sintell/golang/AoR/src/server/server_test.go",
+		"/home/sintell/golang/AoR/server/main.go",
+		"/usr/local/go/src/pkg/builtin/builtin.go",
+		"/home/sintell/golang/AoR/src/location",
+		"/home/sintell/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/sintell/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/sintell/golang/AoR/src/character/main.go",
+		"/home/sintell/golang/AoR/src/character",
+		"/home/sintell/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+		"/home/sintell/.gitconfig",
+		"/home/sintell/Документы/Анкета в школу hh",
+		"/home/sintell/bitbucket/static/calendar/assets/js/ar.js",
+		"/home/sintell/Torrents/[HorribleSubs] Monogatari Series Second Season/[HorribleSubs] Monogatari Series Second Season - 04 [720p].ass",
+		"/home/sintell/Dropbox/Study/Книги/Programmers Klondike.txt",
+		"/home/sintell/bitbucket/static/calendar/assets/js/calendar.js",
+		"/home/sintell/t",
+		"/home/sintell/hh_codeschool/calendar.js",
+		"/home/sintell/community.jade",
+		"/home/sintell/index3.jade"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"false",
+			"dishes",
+			"dish",
+			"date",
+			"div",
+			"h3",
+			"dish",
+			"Dish",
+			"  }",
+			"dish",
+			"open",
+			"getNew",
+			"menus",
+			"Menu",
+			"dishes",
+			"Dish",
+			"User",
+			"1",
+			"hello",
+			"showWelcome",
+			"ьфкпшт",
+			"href",
+			"getEdit",
+			"edit",
+			"dish",
+			"delete",
+			"Redirect",
+			"delete",
+			"edit",
+			"stop",
+			"dishes_types",
+			"dishes_list",
+			"dish__name",
+			"dish",
+			"name",
+			"text",
+			"p",
+			"udata",
+			"false",
+			"text",
+			"Input",
+			"make",
+			"text",
+			"get",
+			"hello",
+			"showWelcome",
+			"HomeController",
+			"}",
+			"temp",
+			"\n",
+			"}\n",
+			"ATTACK",
+			"string",
+			"Name",
+			"Creatures",
+			"Date",
+			"news",
+			"Session",
+			"url",
+			"ifs",
+			"out",
+			"result",
+			"creature",
+			"len",
+			"Creature",
+			"interface",
+			"Attributes",
+			"interface",
+			"name",
+			"url",
+			"interface",
+			"bool",
+			"c.",
+			"NIY",
+			"int",
+			"character",
+			"uint16",
+			"+=",
+			"defence",
+			"attack",
+			"inelligence",
+			"dexterety",
+			"strength",
+			"cmana",
+			"chealth",
+			"mana",
+			"health",
+			"defence",
+			"attack",
+			"inelligence",
+			"dexterety",
+			"strength",
+			"cmana",
+			"chealth",
+			"mana",
+			"health",
+			"chealth",
+			"mana",
+			"health",
+			"case",
+			"\n",
+			"Effect",
+			"weight",
+			"struct",
+			"width",
+			"string",
+			"Message",
+			"string",
+			"Millisecond",
+			"in",
+			"ERROR",
+			"addr",
+			"oob",
+			"communication",
+			"purty_wood",
+			"Style_2",
+			"10",
+			"test",
+			"defence",
+			"Attack",
+			"attack",
+			"CHealth",
+			"chealth",
+			"health",
+			"Defence",
+			"Attack",
+			"Inelligence",
+			"Dexterety"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Типографика",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/dishes/dish.blade.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/sintell/golang/AoR/server":
+	{
+		"height": 275.0
+	},
+	"output.9o:///home/sintell/golang/AoR/square":
+	{
+		"height": 215.0
+	},
+	"output.9o:///home/sintell/golang/AoR/src/communication":
+	{
+		"height": 198.0
+	},
+	"output.9o:///home/sintell/golang/AoR/src/concurency":
+	{
+		"height": 143.0
+	},
+	"output.9o:///home/sintell/golang/AoR/src/creature":
+	{
+		"height": 257.0
+	},
+	"output.9o:///home/sintell/golang/AoR/src/effect":
+	{
+		"height": 256.0
+	},
+	"output.9o:///home/sintell/golang/AoR/src/loader":
+	{
+		"height": 130.0
+	},
+	"output.9o:///home/sintell/golang/AoR/src/location":
+	{
+		"height": 184.0
+	},
+	"output.9o:///home/sintell/golang/AoR/src/loop":
+	{
+		"height": 352.0
+	},
+	"output.9o:///home/sintell/golang/AoR/src/mgo_test":
+	{
+		"height": 245.0
+	},
+	"output.GsComplete.completion-hint-output":
+	{
+		"height": 114.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 251.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 114.0
+	},
+	"project": "menu.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"menu/inde",
+				"app/views/menus/index.blade.php"
+			],
+			[
+				"dish",
+				"app/models/Dish.php"
+			],
+			[
+				"model",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/ModelNotFoundException.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/hhtest/work/hhwork.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 148.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

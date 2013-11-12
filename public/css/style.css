@@ -1,0 +1,153 @@
+/*@font-face
+{
+font-family: 'Chalck';
+src: url('../fonts/fskcEp1F.ttf')
+}
+*/
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+body {
+  background-image: url(../imgs/fvv_new.jpg);
+}
+
+.content {
+  margin: 0 auto;
+  opacity: 1;
+  background-image: url(../imgs/purty_wood.png);
+  box-shadow: 1px 1px 15px #000;
+  border: 2px solid #555;
+  max-width: 1150px;
+  padding: 75px 0;
+  position: relative;
+}
+.content__wrapper {
+  font-size: 12px;
+  margin: 0 auto;
+  background-image: url(../imgs/dark_wall.png);
+  border: 2px solid #333;
+  box-shadow: inset 2px 1px 15px #000;
+  border-radius: 30px/20px;
+  max-width: 1000px;
+}
+
+.content__header {
+  font-family: 'Arial', 'sans-serif';
+  font-size: 8em;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #fff; 
+}
+.content__section {
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+  color: #fff;
+  max-width: 800px;
+  min-width: 320px;
+}
+
+.content__section__header {
+  font-family: 'Arial', 'sans-serif';
+  font-size: 4em;
+  margin-bottom: 15px;
+}
+
+.content__section__item {
+  font-size: 2em;
+  margin: 10px auto;
+  padding: 5px 50px 5px 20px;
+  width: 700px;
+  position: relative;
+  display: block;
+}
+
+.content__section__item:hover {
+  background-color: #fff;
+  color: #333;
+  border-color: #333;
+  border-radius: 5px/20px;
+}
+
+.item__name {
+  min-width:320px;
+  display:inline-block;
+}
+
+.item__price {
+  font-family: 'Arial', 'sans-serif';
+  font-size: 1.1em;
+  float:right;
+  display:inline-block;
+  width:85px;
+  padding:0 0 0 5px;
+  border-left:1px solid #aaa;
+  position: relative;
+  text-align: right;
+}
+.item__price:after {
+  vertical-align: top;
+  font-size: 0.6em;
+  content: "руб.";
+  display: inline-block;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.edit {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right:-40px;
+  background:url(../imgs/edit.png) no-repeat 50% 50%;
+  border-radius:5px;
+  top:0;
+}
+
+.edit:hover {
+  background: #fff url(../imgs/edit.png) no-repeat 50% 50%;
+}
+
+.remove {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right:-90px;
+  background:url(../imgs/delete.png) no-repeat 50% 50%;
+  border-radius:5px;
+  top:0;
+}
+.remove:hover {
+  background: #fff url(../imgs/delete.png) no-repeat 50% 50%;
+}
+
+.edit:active {
+  background: #afa url(../imgs/edit.png) no-repeat 50% 50%;
+}
+
+.remove:active {
+  background: #faa url(../imgs/delete.png) no-repeat 50% 50%;
+}
+
+.add__dish {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}

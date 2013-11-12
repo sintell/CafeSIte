@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+
+class CreateDishesTypesTable extends Migration {
+
+	/**
+	 * Run the migrations.
+	 *
+	 * @return void
+	 */
+	public function up()
+	{
+		//
+		Schema::create('dishes_types', function($table)
+    {
+    		$table->increments('id');
+    		$table->string('name');
+        $table->integer('position');
+        $table->timestamps();
+    });
+	}
+
+	/**
+	 * Reverse the migrations.
+	 *
+	 * @return void
+	 */
+	public function down()
+	{
+		Schema::drop('dishes_types');
+	}
+
+}
