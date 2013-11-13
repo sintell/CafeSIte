@@ -1,9 +1,5 @@
 @extends("../layout")
 
-@section("menu")
-  <a href="dishes/dish/new" class="add__dish">Добавить блюдо</a>
-@stop
-
 @section("content")
 <ul class="content__section">
   @foreach($dishes as $dish)

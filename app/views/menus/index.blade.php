@@ -1,9 +1,5 @@
 @extends("../layout")
 
-@section("menu")
-  <a href="menus/menu/new" class="add__dish">Добавить меню</a>
-@stop
-
 
 @section('content')
   <div class="content__section">

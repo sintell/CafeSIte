@@ -10,7 +10,17 @@
   </head>
   <body>
     <div class="content">
-      @yield('menu')
+      <ul class="menu menu_vertical">
+      @if(Auth::check())
+          <li class="menu__item__wrapper"><a class="menu__item" href={{URL::action("DishController@getDish", 'new')}}>Добавить блюдо</a></li>
+          <li class="menu__item__wrapper"><a class="menu__item" href={{URL::to("/dishes")}}>Список блюд</a></li>
+          <li class="menu__item__wrapper"><a class="menu__item" href={{URL::action("MenuController@getMenu", 'new')}}>Добавить меню</a></li>
+          <li class="menu__item__wrapper"><a class="menu__item" href={{URL::to("/menus")}}>Список меню</a></li>
+          <li class="menu__item__wrapper"><a class="menu__item" href={{URL::to("/logout")}}>Выход</a></li>
+      @else
+          <li class="menu__item__wrapper"><a class="menu__item" href={{URL::to("/login")}}>Войти</a></li>
+      @endif
+      </ul>  
       <div class="content__wrapper">
         <div class="content__header">
         {{$title}}

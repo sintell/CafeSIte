@@ -1,9 +1,5 @@
 @extends("../layout")
 
-@section("menu")
-  <a href="dishes/dish/new" class="add__dish">Добавить блюдо</a>
-@stop
-
 @section("content")
 
   <form action="dish" method="POST" class="form__add-dish">
