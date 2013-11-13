@@ -7,6 +7,10 @@ src: url('../fonts/fskcEp1F.ttf')
 /*
 *  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
 */
+
+
+
+
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
@@ -30,20 +34,20 @@ body {
   margin: 0 auto;
   opacity: 1;
   background-image: url(../imgs/purty_wood.png);
-  box-shadow: 1px 1px 15px #000;
+  box-shadow: 6px 0 50px #000;
   border: 2px solid #555;
-  max-width: 1150px;
+  max-width: 1050px;
   padding: 75px 0;
   position: relative;
 }
 .content__wrapper {
-  font-size: 12px;
+  max-width: 800px;
   margin: 0 auto;
-  background-image: url(../imgs/dark_wall.png);
   border: 2px solid #333;
+  background-image: url(../imgs/dark_wall.png);
+  max-width: 900px;
   box-shadow: inset 2px 1px 15px #000;
   border-radius: 30px/20px;
-  max-width: 1000px;
 }
 
 .content__header {
@@ -71,10 +75,11 @@ body {
 .content__section__item {
   font-size: 2em;
   margin: 10px auto;
-  padding: 5px 50px 5px 20px;
-  width: 700px;
+  padding: 5px 60px 5px 20px;
+  width: 80%;
   position: relative;
   display: block;
+  font-family: 'Droid Sans';
 }
 
 .content__section__item:hover {
@@ -85,15 +90,11 @@ body {
 }
 
 .item__name {
-  min-width:320px;
-  display:inline-block;
 }
 
 .item__price {
   font-family: 'Arial', 'sans-serif';
   font-size: 1.1em;
-  float:right;
-  display:inline-block;
   width:85px;
   padding:0 0 0 5px;
   border-left:1px solid #aaa;
@@ -115,13 +116,13 @@ body {
   height: 34px;
   position: absolute;
   right:-40px;
-  background:url(../imgs/edit.png) no-repeat 50% 50%;
+  background:#FFF url(../imgs/edit.png) no-repeat 50% 50%;
   border-radius:5px;
   top:0;
 }
 
 .edit:hover {
-  background: #fff url(../imgs/edit.png) no-repeat 50% 50%;
+  background: #FFF url(../imgs/edit.png) no-repeat 50% 50%;
 }
 
 .remove {
@@ -150,4 +151,45 @@ body {
   position: absolute;
   top: 30px;
   left: 20px;
+}
+
+@media (max-width: 1920px) {
+  .content__wrapper {
+    font-size: 12px;
+  }  
+  .item__price {
+    float: right;
+  }
+}
+@media (max-width: 1023px) {
+  .content__wrapper {
+    font-size: 11px;
+  }  
+  .item__price {
+    float: right;
+  }
+}
+@media (max-width: 650px) {
+  .content__wrapper {
+    font-size: 10px;
+  }  
+  .item__price {
+    float: none;
+    display: block;
+    padding-top: 10px;
+    border-left: none;
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  .content__wrapper {
+    font-size: 9px;
+  }  
+  .item__price {
+    float: none;
+    display: block;
+    padding-top: 10px;
+    border-left: none;
+    text-align: left;
+  }
 }

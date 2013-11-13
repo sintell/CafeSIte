@@ -121,11 +121,23 @@
 			}
 		},
 		{
-			"file": "app/views/dishes/dish.blade.php",
+			"contents": "/*@font-face\n{\nfont-family: 'Chalck';\nsrc: url('../fonts/fskcEp1F.ttf')\n}\n*/\n/*\n*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet\n*/\nhtml,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}\nbody{line-height:1}\narticle,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}\nnav ul{list-style:none}\nblockquote,q{quotes:none}\nblockquote:before,blockquote:after,q:before,q:after{content:none}\na{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}\nins{background-color:#ff9;color:#000;text-decoration:none}\nmark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}\ndel{text-decoration:line-through}\nabbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}\ntable{border-collapse:collapse;border-spacing:0}\nhr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}\ninput,select{vertical-align:middle}\n\nbody {\n  background-image: url(../imgs/fvv_new.jpg);\n}\n\n.content {\n  margin: 0 auto;\n  opacity: 1;\n  background-image: url(../imgs/purty_wood.png);\n  box-shadow: 6px 0 50px #000;\n  border: 2px solid #555;\n  max-width: 1150px;\n  padding: 75px 0;\n  position: relative;\n}\n.content__wrapper {\n  font-size: 12px;\n  margin: 0 auto;\n  background-image: url(../imgs/dark_wall.png);\n  border: 2px solid #333;\n  box-shadow: inset 2px 1px 15px #000;\n  border-radius: 30px/20px;\n  max-width: 1000px;\n}\n\n.content__header {\n  font-family: 'Arial', 'sans-serif';\n  font-size: 8em;\n  text-align: center;\n  padding-bottom: 10px;\n  color: #fff; \n}\n.content__section {\n  padding: 10px;\n  margin: 20px auto;\n  border-radius: 10px;\n  color: #fff;\n  max-width: 800px;\n  min-width: 320px;\n}\n\n.content__section__header {\n  font-family: 'Arial', 'sans-serif';\n  font-size: 4em;\n  margin-bottom: 15px;\n}\n\n.content__section__item {\n  font-size: 2em;\n  margin: 10px auto;\n  padding: 5px 50px 5px 20px;\n  width: 700px;\n  position: relative;\n  display: block;\n  font-family: 'Droid Sans';\n}\n\n.content__section__item:hover {\n  background-color: #fff;\n  color: #333;\n  border-color: #333;\n  border-radius: 5px/20px;\n}\n\n.item__name {\n  min-width:320px;\n  display:inline-block;\n}\n\n.item__price {\n  font-family: 'Arial', 'sans-serif';\n  font-size: 1.1em;\n  float:right;\n  display:inline-block;\n  width:85px;\n  padding:0 0 0 5px;\n  border-left:1px solid #aaa;\n  position: relative;\n  text-align: right;\n}\n.item__price:after {\n  vertical-align: top;\n  font-size: 0.6em;\n  content: \"руб.\";\n  display: inline-block;\n  position: absolute;\n  margin-left: 5px;\n}\n\n.edit {\n  display: inline-block;\n  width: 34px;\n  height: 34px;\n  position: absolute;\n  right:-40px;\n  background:#FFF url(../imgs/edit.png) no-repeat 50% 50%;\n  border-radius:5px;\n  top:0;\n}\n\n.edit:hover {\n  background: #FFF url(../imgs/edit.png) no-repeat 50% 50%;\n}\n\n.remove {\n  display: inline-block;\n  width: 34px;\n  height: 34px;\n  position: absolute;\n  right:-90px;\n  background:url(../imgs/delete.png) no-repeat 50% 50%;\n  border-radius:5px;\n  top:0;\n}\n.remove:hover {\n  background: #fff url(../imgs/delete.png) no-repeat 50% 50%;\n}\n\n.edit:active {\n  background: #afa url(../imgs/edit.png) no-repeat 50% 50%;\n}\n\n.remove:active {\n  background: #faa url(../imgs/delete.png) no-repeat 50% 50%;\n}\n\n.add__dish {\n  position: absolute;\n  top: 30px;\n  left: 20px;\n}",
+			"file": "public/css/style.css",
+			"file_size": 3682,
+			"file_write_time": 130286748434593196,
 			"settings":
 			{
-				"buffer_size": 545,
+				"buffer_size": 3711,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "        Ferrarigleb11@yandex.ru",
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Unix",
+				"name": "Ferrarigleb11@yandex.ru"
 			}
 		}
 	],
@@ -181,6 +193,7 @@
 	},
 	"file_history":
 	[
+		"/home/sintell/www/laravel-master/.gitignore",
 		"/home/sintell/www/laravel-master/app/views/menus/menu.blade.php",
 		"/home/sintell/www/laravel-master/public/css/style.css",
 		"/home/sintell/www/laravel-master/app/views/dishes/new-dish.blade.php",
@@ -408,7 +421,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -440,24 +453,53 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/dishes/dish.blade.php",
-					"semi_transient": true,
+					"file": "public/css/style.css",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 545,
+						"buffer_size": 3711,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2369,
+								2381
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1019.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Ferrarigleb11@yandex.ru",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -584,7 +626,7 @@
 		[
 			[
 				"",
-				"~/hhtest/work/hhwork.sublime-project"
+				"~/golang/AoR/AoR.sublime-workspace"
 			]
 		],
 		"width": 380.0

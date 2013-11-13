@@ -23,10 +23,16 @@ Route::get('/login', function(){
 Route::post('/login', function(){
   if(Auth::attempt(array('name' => Input::get('username'), 'password' => Input::get('password'))))
   {
-    return Redirect::to('dishes')->with('title', "Список блюд");
+    return Redirect::to('dishes');
   }
   else
   {
+    if (User::all()->count() < 2) {
+      $user = new User;
+      $user->name = Input::get('username');
+      $user->password = Hash::make(Input::get('password'));
+      $user->save();
+    }
     return Redirect::to('/login')->withInput(Input::except('password'))
     ->with('errors', array('text' => "Неправильное имя пользователя или пароль.")); 
   }
