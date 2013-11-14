@@ -44,7 +44,8 @@ class DishController extends BaseController {
 
     $dish->name = Input::get('name');
     $dish->price = Input::get('price');
-    $dish->desc = Input::get('desc');
+    $dish->desc = Input::get('desc', "");
+    $dish->veight = Input::get('veight', 0);
     $dish->save();
     return Redirect::to('dishes')->with('t', $dt->get());
   }
@@ -71,7 +72,8 @@ class DishController extends BaseController {
 
     $dish->name = Input::get('name');
     $dish->price = Input::get('price');
-    $dish->desc = Input::get('desc') || ""; 
+    $dish->desc = Input::get('desc', ""); 
+    $dish->veight = Input::get('veight', 0);
     $dish->save();
     return Redirect::to('dishes');
   }

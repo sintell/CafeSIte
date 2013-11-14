@@ -89,8 +89,8 @@ body {
 .content__section__item {
   font-size: 2em;
   margin: 10px auto;
-  padding: 5px 60px 5px 20px;
-  width: 70%;
+  padding: 5px 60px 5px 0px;
+  width: 80%;
   position: relative;
   display: table;
   font-family: 'Droid Sans';
@@ -101,6 +101,10 @@ body {
   color: #333;
   border-color: #333;
   border-radius: 5px/20px;
+}
+
+.item__veight {
+  display: table-cell;
 }
 
 .item__name {
@@ -259,6 +263,15 @@ input[type="checkbox"] {
     text-align: left;
   }
 }
+  .item__title {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .item__title__big {
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+  }
 @media print {
   .content__wrapper {
     font-size: 10px;
@@ -273,13 +286,14 @@ input[type="checkbox"] {
     display: none;
   }
   .content__section{
-    width: 80%;
+    width: 90%;
     color: #000;
   }
   .content__section__item {
-    width: 500px;
+    width: 600px;
     border-bottom: 1px solid #ccc;
-    margin: 0 auto;
+    margin: 0 50px;
+    border-spacing: 10px 0;
   }
   .content__section__item:last-child {
     border: none;

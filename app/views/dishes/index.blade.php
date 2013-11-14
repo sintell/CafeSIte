@@ -4,6 +4,7 @@
 <ul class="content__section">
   @foreach($dishes as $dish)
     <div class="content__section__item">
+      <span class="item__veight">1/{{$dish->veight}} </span>
       <span class="item__name">{{$dish->name}}</span>
       <span class="item__price">{{$dish->price}}</span>
       <a href="dishes/dish/{{$dish->id}}" class="edit"></a>

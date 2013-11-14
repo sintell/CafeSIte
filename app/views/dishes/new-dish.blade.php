@@ -3,6 +3,7 @@
 @section("content")
 
   <form action="dish" method="POST" class="form__add-dish">
+  <label for="" class="form__label">Вес блюда</label><input type="text" placeholder="Вес блюда" name="veight" required>
 <label for="" class="form__label">Название блюда</label><input type="text" placeholder="Название блюда" name="name" required>
 <label for="" class="form__label">Тип</label><input type="text" placeholder="Тип (первое, второе...)" name="type" required>
 <label for="" class="form__label">Цена</label><input type="number" placeholder="Цена блюда" name="price" required></label> 
