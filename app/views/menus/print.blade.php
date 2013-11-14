@@ -2,7 +2,7 @@
 
 @section('content')
 
-  @foreach($dtypes as $dtype)
+  @foreach($dtypes as $dtype) 
   <div class="content__section">
     <div class="content__section__header">{{$dtype->name}}</div>
       @foreach(Dish::where('type', '=', $dtype->name)->get() as $dish)
