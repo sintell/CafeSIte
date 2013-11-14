@@ -71,7 +71,7 @@ class DishController extends BaseController {
 
     $dish->name = Input::get('name');
     $dish->price = Input::get('price');
-    $dish->desc = Input::get('desc');
+    $dish->desc = Input::get('desc') || "";
     $dish->save();
     return Redirect::to('dishes');
   }

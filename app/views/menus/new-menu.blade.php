@@ -4,6 +4,7 @@
 <form action="menu" method="POST">
 {{Form::text('name', '', array('placeholder' => 'Название меню'))}}
 <input type="date" name="valid_on" placeholder="дд.мм.гггг">
+{{Form::label('repeat', 'Использовать повторно: ', array('class' => 'form__label'))}}&nbsp;
 {{Form::checkbox('repeat', 'repeat_period')}}
 {{Form::text('repeat_period', null, array('placeholder'=> 'Период повтора (в днях)'))}}
 @foreach($dtypes as $dtype)

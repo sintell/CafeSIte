@@ -78,4 +78,11 @@ class MenuController extends BaseController {
     return Redirect::to('menus');
   }
 
+  public function getPrint($id)
+  {
+    $menu = Menu::find($id);
+    $title = "Меню на ".date("d.m.Y", strtotime($menu->valid_on));
+    return View::make("menus/print", array('dtypes' => DishType::all(), 'menu' => $menu, 'title' => $title));
+  }
+
 }
