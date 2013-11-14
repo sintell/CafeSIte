@@ -36,13 +36,13 @@ class MenuController extends BaseController {
     $menu = Menu::find($id);
 
     $menu->name = Input::get('name');
-    $repeat = Input::get('repeat');
+    $repeat = Input::get('repeat', false);
 
     if ($repeat === true) {
       $menu->repeat = $repeat;
-      $menu->repeat_period = Input::get('repeat_period');
+      $menu->repeat_period = Input::get('repeat_period', 0);
     } else {
-      $menu->valid_on = Input::get('valid_on');
+      $menu->valid_on = Input::get('valid_on', getdate());
     }
     $menu->save();
     $menu->dishes()->sync(Input::get('dishes'));
@@ -62,13 +62,13 @@ class MenuController extends BaseController {
     $menu = new Menu;
 
     $menu->name = Input::get('name');
-    $repeat = Input::get('repeat');
+    $repeat = Input::get('repeat', false);
 
     if ($repeat === true) {
       $menu->repeat = $repeat;
-      $menu->repeat_period = Input::get('repeat_period');
+      $menu->repeat_period = Input::get('repeat_period', 0);
     } else {
-      $menu->valid_on = Input::get('valid_on');
+      $menu->valid_on = Input::get('valid_on', getdate());
     }
     $menu->save();
     $menu->dishes()->sync(Input::get('dishes'));
@@ -81,7 +81,7 @@ class MenuController extends BaseController {
   public function getPrint($id)
   {
     $menu = Menu::find($id);
-    $title = "Меню на ".date("d.m.Y", strtotime($menu->valid_on));
+    $title = "Меню на ________";
     return View::make("menus/print", array('dtypes' => DishType::all(), 'menu' => $menu, 'title' => $title));
   }
 

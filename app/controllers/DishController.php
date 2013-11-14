@@ -14,7 +14,7 @@ class DishController extends BaseController {
   {
     $dish = Dish::find($id);
     if(!empty($dish)) {
-      return View::make('dishes/dish')->with('title', $dish->name)
+      return View::make('dishes/dish')->with('title', "Редактирование: ".$dish->name)
       ->with('dish', $dish)->with('dtypes', DishType::orderBy('position')->get());
     } 
     else
