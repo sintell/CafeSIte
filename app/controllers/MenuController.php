@@ -42,7 +42,7 @@ class MenuController extends BaseController {
       $menu->repeat = $repeat;
       $menu->repeat_period = Input::get('repeat_period', 0);
     } else {
-      $menu->valid_on = Input::get('valid_on', getdate());
+      $menu->valid_on = Input::get('valid_on', new DateTime());
     }
     $menu->save();
     $menu->dishes()->sync(Input::get('dishes'));
@@ -68,7 +68,7 @@ class MenuController extends BaseController {
       $menu->repeat = $repeat;
       $menu->repeat_period = Input::get('repeat_period', 0);
     } else {
-      $menu->valid_on = Input::get('valid_on', getdate());
+      $menu->valid_on = Input::get('valid_on', new DateTime());
     }
     $menu->save();
     $menu->dishes()->sync(Input::get('dishes'));
