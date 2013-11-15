@@ -38,7 +38,7 @@ Route::post('/login', function(){
   }
 });
 
-Route::get('/logout', function(){
+Route::get('/logout', function() {
   Auth::logout();
   return Redirect::to('/');
 });
@@ -46,4 +46,7 @@ Route::get('/logout', function(){
 Route::group(array('before' => 'auth'), function(){
   Route::controller('dishes', 'DishController');
   Route::controller('menus', 'MenuController');
+  Route::get('/types', function() {
+    return View::make('types')->with('title', 'Types');
+  });
 });

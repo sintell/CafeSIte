@@ -52,29 +52,32 @@ class DishController extends BaseController {
 
   public function postDish()
   {
-    $dish = new Dish;
-
-    $dtype = Input::get('type');
-    $dt = DishType::where('name', '=' , $dtype)->first();
-    
-    if ($dt) {
-      $dish->type = $dt->name;
+    $dt = DishType::where('name', '=', Input::get('type'));
+    if( $dt->count() > 0)
+    {  
+      $dt = $dt->first();
     }
-    else
+    else 
     {
-      $dishType = new DishType;
-      $dishType->name = $dtype;
-      $dishType->save();
-      $dish->type = $dtype;
+      $dt = new DishType;
+      $dt->name = Input::get('type', "");
+      $dt->position = Input::get('position', 0);
+      $dt->save();
     }
+
+    $dish = (array(
+      "name" => Input::get('name', ''),
+      "type" => $dt->id,
+      "price" => Input::get('price', 0),
+      "desc" => Input::get('desc', ""),
+      "veight" => Input::get('veight', 0)
+    ));
+    
 
     //ucfirst() - first letter to upper case
 
-    $dish->name = Input::get('name');
-    $dish->price = Input::get('price');
-    $dish->desc = Input::get('desc', ""); 
-    $dish->veight = Input::get('veight', 0);
-    $dish->save();
+    
+    $dt->dishes()->insert($dish);
     return Redirect::to('dishes');
   }
   

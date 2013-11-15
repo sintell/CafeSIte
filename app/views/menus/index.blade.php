@@ -12,6 +12,7 @@
       @else
       <span class="item__date">{{$menu->valid_on}}</span>
       @endif
+      <a href="menus/print/{{$menu->id}}" class="print">Печать</a>
       <a href="menus/menu/{{$menu->id}}" class="edit"></a>
       <a href="menus/menu/{{$menu->id}}" data-method="delete" class="remove"></a>
     </div>

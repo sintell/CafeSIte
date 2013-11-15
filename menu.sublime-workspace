@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"border-s",
+				"border-spacing"
+			],
+			[
+				"in",
+				"in	inherit"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
 				"Redire",
 				"Redirect-back	Redirect-back"
 			],
@@ -121,13 +133,101 @@
 			}
 		},
 		{
-			"contents": "/*@font-face\n{\nfont-family: 'Chalck';\nsrc: url('../fonts/fskcEp1F.ttf')\n}\n*/\n/*\n*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet\n*/\nhtml,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}\nbody{line-height:1}\narticle,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}\nnav ul{list-style:none}\nblockquote,q{quotes:none}\nblockquote:before,blockquote:after,q:before,q:after{content:none}\na{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}\nins{background-color:#ff9;color:#000;text-decoration:none}\nmark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}\ndel{text-decoration:line-through}\nabbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}\ntable{border-collapse:collapse;border-spacing:0}\nhr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}\ninput,select{vertical-align:middle}\n\nbody {\n  background-image: url(../imgs/fvv_new.jpg);\n}\n\n.content {\n  margin: 0 auto;\n  opacity: 1;\n  background-image: url(../imgs/purty_wood.png);\n  box-shadow: 6px 0 50px #000;\n  border: 2px solid #555;\n  max-width: 1150px;\n  padding: 75px 0;\n  position: relative;\n}\n.content__wrapper {\n  font-size: 12px;\n  margin: 0 auto;\n  background-image: url(../imgs/dark_wall.png);\n  border: 2px solid #333;\n  box-shadow: inset 2px 1px 15px #000;\n  border-radius: 30px/20px;\n  max-width: 1000px;\n}\n\n.content__header {\n  font-family: 'Arial', 'sans-serif';\n  font-size: 8em;\n  text-align: center;\n  padding-bottom: 10px;\n  color: #fff; \n}\n.content__section {\n  padding: 10px;\n  margin: 20px auto;\n  border-radius: 10px;\n  color: #fff;\n  max-width: 800px;\n  min-width: 320px;\n}\n\n.content__section__header {\n  font-family: 'Arial', 'sans-serif';\n  font-size: 4em;\n  margin-bottom: 15px;\n}\n\n.content__section__item {\n  font-size: 2em;\n  margin: 10px auto;\n  padding: 5px 50px 5px 20px;\n  width: 700px;\n  position: relative;\n  display: block;\n  font-family: 'Droid Sans';\n}\n\n.content__section__item:hover {\n  background-color: #fff;\n  color: #333;\n  border-color: #333;\n  border-radius: 5px/20px;\n}\n\n.item__name {\n  min-width:320px;\n  display:inline-block;\n}\n\n.item__price {\n  font-family: 'Arial', 'sans-serif';\n  font-size: 1.1em;\n  float:right;\n  display:inline-block;\n  width:85px;\n  padding:0 0 0 5px;\n  border-left:1px solid #aaa;\n  position: relative;\n  text-align: right;\n}\n.item__price:after {\n  vertical-align: top;\n  font-size: 0.6em;\n  content: \"руб.\";\n  display: inline-block;\n  position: absolute;\n  margin-left: 5px;\n}\n\n.edit {\n  display: inline-block;\n  width: 34px;\n  height: 34px;\n  position: absolute;\n  right:-40px;\n  background:#FFF url(../imgs/edit.png) no-repeat 50% 50%;\n  border-radius:5px;\n  top:0;\n}\n\n.edit:hover {\n  background: #FFF url(../imgs/edit.png) no-repeat 50% 50%;\n}\n\n.remove {\n  display: inline-block;\n  width: 34px;\n  height: 34px;\n  position: absolute;\n  right:-90px;\n  background:url(../imgs/delete.png) no-repeat 50% 50%;\n  border-radius:5px;\n  top:0;\n}\n.remove:hover {\n  background: #fff url(../imgs/delete.png) no-repeat 50% 50%;\n}\n\n.edit:active {\n  background: #afa url(../imgs/edit.png) no-repeat 50% 50%;\n}\n\n.remove:active {\n  background: #faa url(../imgs/delete.png) no-repeat 50% 50%;\n}\n\n.add__dish {\n  position: absolute;\n  top: 30px;\n  left: 20px;\n}",
 			"file": "public/css/style.css",
-			"file_size": 3682,
-			"file_write_time": 130286748434593196,
 			"settings":
 			{
-				"buffer_size": 3711,
+				"buffer_size": 50402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/menus/new-menu.blade.php",
+			"settings":
+			{
+				"buffer_size": 616,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/menus/menu.blade.php",
+			"settings":
+			{
+				"buffer_size": 743,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/DishController.php",
+			"settings":
+			{
+				"buffer_size": 2032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/migrations/2013_11_14_141256_Dishes_Add_Veight.php",
+			"settings":
+			{
+				"buffer_size": 492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/migrations/2013_11_08_082926_CreateDishesTypesTable.php",
+			"settings":
+			{
+				"buffer_size": 712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nuse Illuminate\\Database\\Migrations\\Migration;\n\nclass CreateDishesTypesTable extends Migration {\n\n  /**\n   * Run the migrations.\n   *\n   * @return void\n   */\n  public function up()\n  {\n    //\n    Schema::create('dishes_types', function($table)\n    {\n        $table->increments('id');\n        $table->string('name');\n        $table->integer('position');\n        $table->timestamps();\n    });\n  }\n\n  /**\n   * Reverse the migrations.\n   *\n   * @return void\n   */\n  public function down()\n  {\n    Schema::drop('dishes_types');\n  }\n\n}\n",
+			"file": "app/database/migrations/2013_11_02_231512_create_dishes_table.php",
+			"file_size": 641,
+			"file_write_time": 130289179312274924,
+			"settings":
+			{
+				"buffer_size": 536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/migrations/2013_11_02_233243_create_menus_dishes_table.php",
+			"settings":
+			{
+				"buffer_size": 675,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "artisan",
+			"settings":
+			{
+				"buffer_size": 2424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/hello.php",
+			"settings":
+			{
+				"buffer_size": 8029,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/MenuController.php",
+			"settings":
+			{
+				"buffer_size": 2397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 1435,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,12 +239,44 @@
 				"line_ending": "Unix",
 				"name": "Ferrarigleb11@yandex.ru"
 			}
+		},
+		{
+			"file": "app/views/dishes/new-dish.blade.php",
+			"settings":
+			{
+				"buffer_size": 658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/dishes/dish.blade.php",
+			"settings":
+			{
+				"buffer_size": 801,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/dishes/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/menus/print.blade.php",
+			"settings":
+			{
+				"buffer_size": 747,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 79.0,
+		"height": 171.0,
 		"selected_items":
 		[
 			[
@@ -172,7 +304,7 @@
 				"View: Toggle Minimap"
 			]
 		],
-		"width": 435.0
+		"width": 354.0
 	},
 	"console":
 	{
@@ -193,23 +325,24 @@
 	},
 	"file_history":
 	[
+		"/home/sintell/www/laravel-master/app/views/menus/index.blade.php",
+		"/home/sintell/www/laravel-master/app/views/dishes/index.blade.php",
+		"/home/sintell/www/laravel-master/app/views/layout.blade.php",
+		"/home/sintell/www/laravel-master/app/routes.php",
+		"/home/sintell/www/laravel-master/app/views/menus/new-menu.blade.php",
+		"/home/sintell/www/laravel-master/public/js/restfulizer.js",
+		"/home/sintell/www/laravel-master/app/views/dishes/new-dish.blade.php",
+		"/home/sintell/hhtest/git/commands.txt",
 		"/home/sintell/www/laravel-master/.gitignore",
 		"/home/sintell/www/laravel-master/app/views/menus/menu.blade.php",
 		"/home/sintell/www/laravel-master/public/css/style.css",
-		"/home/sintell/www/laravel-master/app/views/dishes/new-dish.blade.php",
-		"/home/sintell/www/laravel-master/app/views/dishes/index.blade.php",
 		"/home/sintell/www/laravel-master/app/views/dishes/dish.blade.php",
-		"/home/sintell/www/laravel-master/app/views/menus/index.blade.php",
-		"/home/sintell/www/laravel-master/app/views/menus/new-menu.blade.php",
 		"/home/sintell/www/laravel-master/app/views/menu.blade.php",
 		"/home/sintell/www/laravel-master/app/models/Dish.php",
 		"/home/sintell/www/laravel-master/app/models/Menu.php",
 		"/home/sintell/www/laravel-master/app/controllers/DishController.php",
 		"/home/sintell/www/laravel-master/app/controllers/MenuController.php",
-		"/home/sintell/www/laravel-master/app/routes.php",
-		"/home/sintell/www/laravel-master/app/views/layout.blade.php",
 		"/home/sintell/www/laravel-master/app/views/admin/index.blade.php",
-		"/home/sintell/www/laravel-master/public/js/restfulizer.js",
 		"/home/sintell/www/laravel-master/app/views/admin/new-dish.blade.php",
 		"/home/sintell/www/laravel-master/app/views/admin/dishes.blade.php",
 		"/home/sintell/www/laravel-master/app/views/admin/dish.blade.php",
@@ -276,6 +409,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dishes",
+			"center",
+			"auto",
+			"d",
+			"name",
+			"label",
+			"data",
+			"class",
+			"form__label",
+			"repeat",
+			"__wrapper",
+			"text",
+			"  text-shadow: 1px 1px 2px #955;\n",
+			"2px",
+			"menu__item__wrapper",
+			"margin",
+			"serif",
+			"<a",
+			"a",
+			"Выход",
+			"action",
+			"getDish",
+			"getNew",
+			"route",
+			"Link",
+			"login",
+			"username",
+			"passwordHash",
+			"right",
+			"    display: inline-block;\n",
+			"block",
+			"none",
+			"1920px",
+			"  background-image: url(../imgs/dark_wall.png);\n",
+			"min",
+			"device",
+			"max",
+			"480",
+			"650",
+			"screen",
+			"c",
+			"screen",
+			"1024",
 			"false",
 			"dishes",
 			"dish",
@@ -360,50 +536,7 @@
 			"dexterety",
 			"strength",
 			"cmana",
-			"chealth",
-			"mana",
-			"health",
-			"defence",
-			"attack",
-			"inelligence",
-			"dexterety",
-			"strength",
-			"cmana",
-			"chealth",
-			"mana",
-			"health",
-			"chealth",
-			"mana",
-			"health",
-			"case",
-			"\n",
-			"Effect",
-			"weight",
-			"struct",
-			"width",
-			"string",
-			"Message",
-			"string",
-			"Millisecond",
-			"in",
-			"ERROR",
-			"addr",
-			"oob",
-			"communication",
-			"purty_wood",
-			"Style_2",
-			"10",
-			"test",
-			"defence",
-			"Attack",
-			"attack",
-			"CHealth",
-			"chealth",
-			"health",
-			"Defence",
-			"Attack",
-			"Inelligence",
-			"Dexterety"
+			"chealth"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -421,7 +554,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -457,15 +590,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3711,
+						"buffer_size": 50402,
 						"regions":
 						{
+							"bookmark_i":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										46024,
+										46024
+									]
+								]
+							}
 						},
 						"selection":
 						[
 							[
-								2369,
-								2381
+								45832,
+								45832
 							]
 						],
 						"settings":
@@ -474,14 +618,324 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 1019.0,
+						"translation.x": 8.0,
+						"translation.y": 798.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "app/views/menus/new-menu.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/menus/menu.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/DishController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 24.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/database/migrations/2013_11_14_141256_Dishes_Add_Veight.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/database/migrations/2013_11_08_082926_CreateDishesTypesTable.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/database/migrations/2013_11_02_231512_create_dishes_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/database/migrations/2013_11_02_233243_create_menus_dishes_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "artisan",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/hello.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/controllers/MenuController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1394,
+								1394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/views/layout.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1360,
+								1360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 293.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"semi_transient": false,
 					"settings":
 					{
@@ -500,6 +954,120 @@
 						{
 							"auto_name": "Ferrarigleb11@yandex.ru",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "app/views/dishes/new-dish.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/views/dishes/dish.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/views/dishes/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "app/views/menus/print.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								694,
+								694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -527,11 +1095,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.394611552963,
 			1.0
 		],
 		"rows":
@@ -645,8 +1220,8 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 148.0,
+	"side_bar_visible": false,
+	"side_bar_width": 292.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

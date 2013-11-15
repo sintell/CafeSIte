@@ -5,7 +5,7 @@
   @foreach($dtypes as $dtype) 
   <div class="content__section">
     <div class="content__section__header">{{$dtype->name}}</div>
-      @foreach(Dish::where('type', '=', $dtype->name)->get() as $dish)
+      @foreach($dtype->dishes()->get() as $dish)
       <div class="content__section__item">
         <span class="item__veight">1/{{$dish->veight}} </span>
         <span class="item__name">{{$dish->name}}</span>
